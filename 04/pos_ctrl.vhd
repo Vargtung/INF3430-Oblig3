@@ -51,6 +51,7 @@ architecture pos_ctrl_ARCH of pos_ctrl is
   end component;
 
   signal pos_itr : signed(7 downto 0);
+  signal sp_itr : std_logic_vector(7 downto 0);
   signal cw : std_logic;
   signal ccw : std_logic;
 begin
@@ -66,9 +67,9 @@ begin
     );
   p_ctrl_instance : p_ctrl
     port map(
-      rst => rst,
+      rst => rst_div,
       clk => mclk_div,
-      sp => signed('0' & sp(6 downto 0)),
+      sp => signed(sp_itr),
       pos => pos_itr,
       motor_cw => cw,
       motor_ccw => ccw
@@ -91,6 +92,6 @@ begin
       end if;
     end process;
 
-    --sp <= '0' & sp(6 downto 0);
+    sp_itr <= '0' & sp(6 downto 0);
     pos <= std_logic_vector(pos_itr);
 end pos_ctrl_ARCH;

@@ -1,0 +1,43 @@
+C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_ent.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_ent.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity motor
+
+} {} {}} C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_beh.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_beh.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture motor_beh of motor
+-- Loading entity motor
+
+} {} {}} C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_meas.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_meas.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pos_meas
+-- Compiling architecture pos_meas_ARCH of pos_meas
+
+} {} {}} C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p_ctrl
+-- Compiling architecture p_ctrl_ARCH of p_ctrl
+
+} {} {}} C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_ctrl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pos_ctrl
+-- Compiling architecture pos_ctrl_ARCH of pos_ctrl
+
+} {} {}}
