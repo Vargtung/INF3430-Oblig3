@@ -22,6 +22,8 @@ architecture pos_meas_ARCH of pos_meas is
   signal PRESENT_STATE, NEXT_STATE : state_type;
   signal a_int : std_logic;
   signal b_int : std_logic;
+  -- signal count_up_en : std_logic;
+  -- signal count_down_en : std_logic;
   signal pos_itr : signed(7 downto 0);
 begin
   --Here starts the description
@@ -29,7 +31,6 @@ begin
   begin
     if rst = '1' then
       PRESENT_STATE <= start_up_st;
-      pos_itr <= (others => '0');
     elsif(rising_edge(clk)) then
       PRESENT_STATE <= NEXT_STATE;
     end if;
@@ -44,8 +45,6 @@ begin
   end process;
 
   state_set : process(a_int, b_int, PRESENT_STATE)
-    variable count_up_en : std_logic := '0';
-    variable count_down_en :std_logic := '0';
   begin
     case PRESENT_STATE is
       when start_up_st =>
@@ -69,16 +68,32 @@ begin
       when up_down_st =>
         if(b_int = '0') then
           NEXT_STATE <= count_up_st;
-        elsif(b_int = '0') then
+        elsif(b_int = '1') then
           NEXT_STATE <= count_down_st;
         end if;
       when count_up_st =>
-        count_up_en := '1';
         NEXT_STATE <= wait_a1_st;
       when count_down_st =>
-        count_down_en := '1';
         NEXT_STATE <= wait_a1_st;
     end case;
+  end process;
+
+  count : process(clk, rst) is
+    variable count_up_en : std_logic := '0';
+    variable count_down_en :std_logic := '0';
+  begin
+    count_up_en := '0';
+    count_down_en := '0';
+    if rst = '1' then
+      pos_itr <= (others => '0');
+    elsif(rising_edge(clk)) then
+      if(PRESENT_STATE = count_up_st) then
+        count_up_en := '1';
+      elsif(PRESENT_STATE = count_down_st) then
+        count_down_en := '1';
+      end if;
+    end if;
+
     if(count_up_en = '1') then
       if(pos_itr(6 downto 0) = "1111111") then
         pos_itr(6 downto 0) <= (others => '0');
@@ -92,7 +107,7 @@ begin
         pos_itr <= pos_itr - 1;
       end if;
     end if;
-
   end process;
+
   pos <= pos_itr;
 end pos_meas_ARCH;
