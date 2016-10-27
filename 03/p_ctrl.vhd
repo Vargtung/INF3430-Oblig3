@@ -27,6 +27,7 @@ architecture p_ctrl_ARCH of p_ctrl is
 begin
 
   flops : process(pos, sp, clk) is
+  begin
     if(rising_edge(clk)) then
       pos_itr <= pos;
       sp_itr <= sp;
@@ -43,6 +44,7 @@ begin
   end process;
 
   sate_set : process(PRESENT_STATE) is
+  begin
     case PRESENT_STATE is
       when idle_st =>
         motor_cw <= '0';
@@ -65,5 +67,6 @@ begin
           motor_ccw <= '0';
           NEXT_STATE <= sample_st;
         end if;
+      end case;
   end process;
 end p_ctrl_ARCH;

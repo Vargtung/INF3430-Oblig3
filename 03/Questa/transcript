@@ -1,0 +1,347 @@
+# Compile of p_ctrl.vhd failed with 1 errors.
+# Compile of tb_p_ctrl.vhd failed with 7 errors.
+# 2 compiles, 2 failed with 8 errors.
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(30): near "if": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
+# 
+# 
+# 2 compiles, 2 failed with 8 errors.
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(30): near "if": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
+# 
+# 
+# 2 compiles, 2 failed with 8 errors.
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(47): near "case": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
+# 
+# 
+# 2 compiles, 2 failed with 8 errors.
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(70): near "process": (vcom-1576) expecting CASE.
+# 
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
+# 
+# 
+# 2 compiles, 2 failed with 8 errors.
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
+# 
+# 
+# 2 compiles, 1 failed with 7 errors.
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(34): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
+# 
+# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(46): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# 
+# 
+vsim -gui work.p_ctrl_tb
+# vsim 
+# Start time: 14:49:47 on Oct 27,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p_ctrl_tb(p_ctrl_tb_arch)
+# Loading work.p_ctrl(p_ctrl_arch)
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/rst \
+sim:/p_ctrl_tb/clk \
+sim:/p_ctrl_tb/sp \
+sim:/p_ctrl_tb/pos \
+sim:/p_ctrl_tb/motor_cw \
+sim:/p_ctrl_tb/motor_ccw
+run 10 us
+quit -sim
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# 
+# 
+vsim -gui work.p_ctrl_tb
+# vsim 
+# Start time: 14:50:39 on Oct 27,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p_ctrl_tb(p_ctrl_tb_arch)
+# Loading work.p_ctrl(p_ctrl_arch)
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/rst \
+sim:/p_ctrl_tb/clk \
+sim:/p_ctrl_tb/sp \
+sim:/p_ctrl_tb/pos \
+sim:/p_ctrl_tb/motor_cw \
+sim:/p_ctrl_tb/motor_ccw
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 1908
+# 
+#           Attempting to use alternate WLF file "./wlft8a6i8r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft8a6i8r
+# 
+run 10 us
+restart
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/UUT/PRESENT_STATE
+run 10 us
+quit -sim
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# 
+# 
+vsim -gui work.p_ctrl_tb
+# vsim 
+# Start time: 14:55:06 on Oct 27,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p_ctrl_tb(p_ctrl_tb_arch)
+# Loading work.p_ctrl(p_ctrl_arch)
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/rst \
+sim:/p_ctrl_tb/clk \
+sim:/p_ctrl_tb/sp \
+sim:/p_ctrl_tb/pos \
+sim:/p_ctrl_tb/motor_cw \
+sim:/p_ctrl_tb/motor_ccw
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 1908
+# 
+#           Attempting to use alternate WLF file "./wlfttjffcb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfttjffcb
+# 
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/UUT/PRESENT_STATE
+run 10 us
+quit -sim
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# 
+# 
+vsim -gui work.p_ctrl_tb
+# vsim 
+# Start time: 14:57:50 on Oct 27,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p_ctrl_tb(p_ctrl_tb_arch)
+# Loading work.p_ctrl(p_ctrl_arch)
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/UUT/PRESENT_STATE
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 1908
+# 
+#           Attempting to use alternate WLF file "./wlftzd59h4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftzd59h4
+# 
+add wave -position insertpoint  \
+sim:/p_ctrl_tb/rst \
+sim:/p_ctrl_tb/clk \
+sim:/p_ctrl_tb/sp \
+sim:/p_ctrl_tb/pos \
+sim:/p_ctrl_tb/motor_cw \
+sim:/p_ctrl_tb/motor_ccw
+run 10 us
