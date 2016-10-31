@@ -82,35 +82,38 @@ begin
     end case;
   end process;
 
-  count : process(clk, rst) is
-    variable count_up_en : std_logic := '0';
-    variable count_down_en :std_logic := '0';
+  count : process(clk, rst, pos_itr) is
+    variable count_up_en : std_logic;
+    variable count_down_en :std_logic;
   begin
     count_up_en := '0';
     count_down_en := '0';
-    if rst = '1' then
-      pos_itr <= (others => '0');
-    elsif(rising_edge(clk)) then
+    
+    if(rising_edge(clk)) then
       if(PRESENT_STATE = count_up_st) then
         count_up_en := '1';
       elsif(PRESENT_STATE = count_down_st) then
         count_down_en := '1';
       end if;
     end if;
-
-    if(count_up_en = '1') then
+    
+    if(rising_edge(clk)) then
+    if rst = '1' then
+          pos_itr <= (others => '0');
+    elsif(count_up_en = '1') then
       if(pos_itr(6 downto 0) = "1111111") then
         pos_itr(6 downto 0) <= (others => '0');
-      else
+      elsif(pos_itr(6 downto 0) /= "1111111") then
         pos_itr <= pos_itr + 1;
       end if;
     elsif(count_down_en = '1') then
       if(pos_itr(6 downto 0)) = "0000000" then
         pos_itr(6 downto 0) <= (others => '1');
-      else
+      elsif(pos_itr(6 downto 0) /= "0000000") then
         pos_itr <= pos_itr - 1;
       end if;
     end if;
+		end if;
   end process;
 
   pos <= pos_itr;

@@ -23,10 +23,11 @@ architecture p_ctrl_ARCH of p_ctrl is
   signal pos_itr                    : signed(7 downto 0);
   signal sp_itr                     : signed(7 downto 0);
   signal err                        : signed(7 downto 0);
+	signal motor_set									: std_logic_vector(1 downto 0);
 
 begin
 
-  flops : process(pos, sp, clk) is
+  flops : process(clk) is
   begin
     if(rising_edge(clk)) then
       pos_itr <= pos;
@@ -43,30 +44,45 @@ begin
     end if;
   end process;
 
-  sate_set : process(PRESENT_STATE) is
+  sate_set : process(PRESENT_STATE, sp_itr, pos_itr) is
   begin
     case PRESENT_STATE is
       when idle_st =>
-        motor_cw <= '0';
-        motor_ccw <= '0';
+        motor_set <= "00";
         NEXT_STATE <= sample_st;
       when sample_st =>
-        err <= (sp-pos);
+        err <= (sp_itr-pos_itr);
         NEXT_STATE <= motor_st;
       when motor_st =>
         if(err > 0) then
-          motor_cw <= '1';
-          motor_ccw <= '0';
+          motor_set <= "10";
           NEXT_STATE <= sample_st;
         elsif(err < 0) then
-          motor_cw <= '0';
-          motor_ccw <= '1';
+          motor_set <= "01";
           NEXT_STATE <= sample_st;
         else
-          motor_cw <= '0';
-          motor_ccw <= '0';
+          motor_set <= "00";
           NEXT_STATE <= sample_st;
         end if;
       end case;
   end process;
+	
+	motor_control : process(clk) is
+	begin
+		if(rising_edge(clk)) then
+			if(motor_set = "00") then
+				motor_cw <= '0';
+        motor_ccw <= '0';
+			elsif(motor_set = "10") then
+				motor_cw <= '1';
+        motor_ccw <= '0';
+			elsif(motor_set = "01") then
+				motor_cw <= '0';
+        motor_ccw <= '1';
+			else
+				motor_cw <= '0';
+        motor_ccw <= '0';
+			end if;
+		end if;
+	end process;
 end p_ctrl_ARCH;
