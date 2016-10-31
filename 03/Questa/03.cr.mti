@@ -1,4 +1,4 @@
-C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/p_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/p_ctrl.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO

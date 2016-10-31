@@ -1,7 +1,14 @@
-# Compile of p_ctrl.vhd failed with 1 errors.
-# Compile of tb_p_ctrl.vhd failed with 7 errors.
-# 2 compiles, 2 failed with 8 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# ** Error: (vcom-7) Failed to open design unit file "p_ctrl.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\03\03.do line 1
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none p_ctrl.vhd"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -9,10 +16,6 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity p_ctrl
 # -- Compiling architecture p_ctrl_ARCH of p_ctrl
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(30): near "if": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,214 +23,146 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity p_ctrl_tb
 # -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
-# 
-# 
-# 2 compiles, 2 failed with 8 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl
-# -- Compiling architecture p_ctrl_ARCH of p_ctrl
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(30): near "if": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
-# 
-# 
-# 2 compiles, 2 failed with 8 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl
-# -- Compiling architecture p_ctrl_ARCH of p_ctrl
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(47): near "case": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
-# 
-# 
-# 2 compiles, 2 failed with 8 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl
-# -- Compiling architecture p_ctrl_ARCH of p_ctrl
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd(70): near "process": (vcom-1576) expecting CASE.
-# 
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
-# 
-# 
-# 2 compiles, 2 failed with 8 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl
-# -- Compiling architecture p_ctrl_ARCH of p_ctrl
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(40): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(47): VHDL Compiler exiting
-# 
-# 
-# 2 compiles, 1 failed with 7 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(34): (vcom-1436) Actual expression (infix expression) of formal "rst" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(35): (vcom-1436) Actual expression (infix expression) of formal "clk" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(36): (vcom-1436) Actual expression (infix expression) of formal "sp" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(37): (vcom-1436) Actual expression (infix expression) of formal "pos" is not globally static.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(38): (vcom-1454) Formal "motor_cw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(39): (vcom-1454) Formal "motor_ccw" of mode OUT cannot be associated with an expression.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd(46): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# 
-# 
-vsim -gui work.p_ctrl_tb
 # vsim 
-# Start time: 14:49:47 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.p_ctrl_tb(p_ctrl_tb_arch)
-# Loading work.p_ctrl(p_ctrl_arch)
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/rst \
-sim:/p_ctrl_tb/clk \
-sim:/p_ctrl_tb/sp \
-sim:/p_ctrl_tb/pos \
-sim:/p_ctrl_tb/motor_cw \
-sim:/p_ctrl_tb/motor_ccw
-run 10 us
+# Start time: 18:37:40 on Oct 31,2016
+# ** Error: (vsim-3170) Could not find 'C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/work.tb_pos_meas'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: (vsim-3170) Could not find 'C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/work.tb_p_ctrl'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: (vsim-3170) Could not find 'C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/work.tb_p_ctrl'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
 quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# vsim 
+# Start time: 18:39:59 on Oct 31,2016
+# ** Error: (vsim-3170) Could not find 'C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/work.tb_p_ctrl'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: (vsim-19) Failed to access library 'work.tb_p_ctrl' at "work.tb_p_ctrl".
+# 
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: (vsim-3170) Could not find 'C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/work.tb_p_ctrl'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
+# 0 compiles, 2 failed with no errors.
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl_tb
+# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
+# ** Error: (vsim-3170) Could not find 'C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/work.tb_p_ctrl'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\03\Questa\03.do PAUSED at line 5
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/tb_p_ctrl.vhd
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -237,111 +172,75 @@ quit -sim
 # -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
 # 
 # 
-vsim -gui work.p_ctrl_tb
-# vsim 
-# Start time: 14:50:39 on Oct 27,2016
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/p_ctrl.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# 
+# 
+# 2 compiles, 0 failed with no errors.
+vsim work.p_ctrl_tb
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.p_ctrl_tb(p_ctrl_tb_arch)
 # Loading work.p_ctrl(p_ctrl_arch)
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/rst \
-sim:/p_ctrl_tb/clk \
-sim:/p_ctrl_tb/sp \
-sim:/p_ctrl_tb/pos \
-sim:/p_ctrl_tb/motor_cw \
-sim:/p_ctrl_tb/motor_ccw
+add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 # 
 #           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 1908
 # 
-#           Attempting to use alternate WLF file "./wlft8a6i8r".
+#           Attempting to use alternate WLF file "./wlftgd9wx4".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlft8a6i8r
+#           Using alternate file: ./wlftgd9wx4
 # 
-run 10 us
-restart
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/UUT/PRESENT_STATE
-run 10 us
+run 1000 us
 quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# 
-# 
-vsim -gui work.p_ctrl_tb
+vsim work.p_ctrl_tb
 # vsim 
-# Start time: 14:55:06 on Oct 27,2016
+# Start time: 18:44:44 on Oct 31,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.p_ctrl_tb(p_ctrl_tb_arch)
 # Loading work.p_ctrl(p_ctrl_arch)
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/rst \
-sim:/p_ctrl_tb/clk \
-sim:/p_ctrl_tb/sp \
-sim:/p_ctrl_tb/pos \
-sim:/p_ctrl_tb/motor_cw \
-sim:/p_ctrl_tb/motor_ccw
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 1908
-# 
-#           Attempting to use alternate WLF file "./wlfttjffcb".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlfttjffcb
-# 
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/03/tb_p_ctrl.vhd
+do C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.do
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity p_ctrl_tb
-# -- Compiling architecture p_ctrl_tb_ARCH of p_ctrl_tb
-# 
-# 
-vsim -gui work.p_ctrl_tb
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_p_ctrl
+# -- Compiling architecture tb_p_ctrl_ARCH of tb_p_ctrl
 # vsim 
-# Start time: 14:57:50 on Oct 27,2016
+# Start time: 18:47:36 on Oct 31,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.p_ctrl_tb(p_ctrl_tb_arch)
+# Loading work.tb_p_ctrl(tb_p_ctrl_arch)
 # Loading work.p_ctrl(p_ctrl_arch)
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/UUT/PRESENT_STATE
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 # 
 #           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 1908
 # 
-#           Attempting to use alternate WLF file "./wlftzd59h4".
+#           Attempting to use alternate WLF file "./wlfth86wc0".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftzd59h4
+#           Using alternate file: ./wlfth86wc0
 # 
-add wave -position insertpoint  \
-sim:/p_ctrl_tb/rst \
-sim:/p_ctrl_tb/clk \
-sim:/p_ctrl_tb/sp \
-sim:/p_ctrl_tb/pos \
-sim:/p_ctrl_tb/motor_cw \
-sim:/p_ctrl_tb/motor_ccw
-run 10 us
+# Closing project C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/03.mpf

@@ -10,5 +10,5 @@ entity pos_meas is
     a        : in  std_logic;           -- From position sensor
     b        : in  std_logic;           -- From position sensor
     pos      : out signed(7 downto 0)   -- Measured position
-    );      
+    );
 end pos_meas;

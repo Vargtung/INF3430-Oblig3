@@ -10,5 +10,5 @@ entity p_ctrl is
     pos       : in  signed(7 downto 0);  -- Measured position
     motor_cw  : out std_logic;           --Motor Clock Wise direction
     motor_ccw : out std_logic            --Motor Counter Clock Wise direction
-    );      
+    );
 end p_ctrl;

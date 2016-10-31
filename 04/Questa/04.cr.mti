@@ -22,6 +22,15 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity pos_meas
 -- Compiling architecture pos_meas_ARCH of pos_meas
 
+} {} {}} C:/Programmering/Prosjekter/INF3430/Oblig3/04/tb_pos_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/tb_pos_ctrl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_pos_ctrl
+-- Compiling architecture tb_pos_ctrl_ARCH of tb_pos_ctrl
+
 } {} {}} C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD

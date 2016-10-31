@@ -9,126 +9,125 @@ z2
 cModel Technology
 dC:/Programmering/Prosjekter/INF3430/Test
 Emotor
-w1477569380
-Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z2 dC:/Programmering/Prosjekter/INF3430/Oblig3/02
-8C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
-FC:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
+Z0 w1477932565
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Programmering/Prosjekter/INF3430/Oblig3/02
+8motor_ent.vhd
+Fmotor_ent.vhd
 l0
 L4
 VNQo1Jg3NG1K?jBB;ZW^7V1
 !s100 2d3MkHBiBdCGhOoS:kl2i2
-Z3 OP;C;10.4a;61
+Z4 OP;C;10.4a;61
 32
-!s110 1477569400
+Z5 !s110 1477935276
 !i10b 1
-!s108 1477569400.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd|
-!s107 C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd|
+Z6 !s108 1477935276.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|motor_ent.vhd|
+!s107 motor_ent.vhd|
 !i113 1
-Z4 o-work work -2002 -explicit -O0
-Z5 tExplicit 1
+Z7 o-work work -2002 -explicit -O0
+Z8 tExplicit 1
 Amotor_beh
 DEx4 work 5 motor 0 22 NQo1Jg3NG1K?jBB;ZW^7V1
-R0
 R1
-8C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd
-FC:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd
+R2
+8motor_beh.vhd
+Fmotor_beh.vhd
 l6
 L4
 VT78MTEbKER?:0_35ldHUS2
 !s100 Jh?aIPK038H0BGR>K0gR<3
-R3
-32
-Z6 !s110 1477568469
-!i10b 1
-Z7 !s108 1477568469.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd|
-!s107 C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd|
-!i113 1
 R4
+32
 R5
-w1477568380
+!i10b 1
+R6
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|motor_beh.vhd|
+!s107 motor_beh.vhd|
+!i113 1
+R7
+R8
 Epos_meas
-Z8 w1477567816
-Z9 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-R0
+Z9 w1477935265
+Z10 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
-Z10 8C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-Z11 FC:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
+R3
+Z11 8pos_meas.vhd
+Z12 Fpos_meas.vhd
 l0
 L5
 V]HgSMHjQkj7a_9T?:nDA@1
 !s100 aYRi5aF7FRXC_e;o4k96G1
-R3
-32
-R6
-!i10b 1
-R7
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd|
-Z13 !s107 C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd|
-!i113 1
 R4
+32
 R5
+!i10b 1
+R6
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|pos_meas.vhd|
+Z14 !s107 pos_meas.vhd|
+!i113 1
+R7
+R8
 Apos_meas_arch
-R9
-R0
-R1
-DEx4 work 8 pos_meas 0 22 ]HgSMHjQkj7a_9T?:nDA@1
-l28
-L18
-VLef6G[llo:UblL8b664Lk0
-!s100 PnKOhT2]U3OLG8eeUJ;mm0
-R3
-32
-R6
-!i10b 1
-R7
-R12
-R13
-!i113 1
-R4
-R5
-Etb_pos_meas
-Z14 w1477569497
-R9
-R0
+R10
 R1
 R2
-Z15 8C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-Z16 FC:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
+DEx4 work 8 pos_meas 0 22 ]HgSMHjQkj7a_9T?:nDA@1
+l25
+L17
+VWWZD5NenIAcmfJV?Nm0z<1
+!s100 <bcIXYg0L^T=?3BWz?]EA0
+R4
+32
+R5
+!i10b 1
+R6
+R13
+R14
+!i113 1
+R7
+R8
+Etb_pos_meas
+Z15 w1477934702
+R10
+R1
+R2
+R3
+Z16 8tb_pos_meas.vhd
+Z17 Ftb_pos_meas.vhd
 l0
 L6
 VizFPbWU=i7[_bbXW8ohLX1
 !s100 Y84jK=k4QCOYYh?gz@7fF1
-R3
-32
-Z17 !s110 1477569505
-!i10b 1
-Z18 !s108 1477569505.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd|
-Z20 !s107 C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd|
-!i113 1
 R4
+32
 R5
+!i10b 1
+R6
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|tb_pos_meas.vhd|
+Z19 !s107 tb_pos_meas.vhd|
+!i113 1
+R7
+R8
 Atb_pos_meas_arch
-R9
-R0
+R10
 R1
-Z21 DEx4 work 11 tb_pos_meas 0 22 izFPbWU=i7[_bbXW8ohLX1
+R2
+DEx4 work 11 tb_pos_meas 0 22 izFPbWU=i7[_bbXW8ohLX1
 l43
 L10
-VoDzVd@IaVdnIejd;V3gBG2
-!s100 7X63Z>WO=kAPVBE7A:>7K2
-R3
+VHe;j4:5`DMTCPZVebRWLX3
+!s100 6Mickk5JU[A5`MVGi_T=S2
+R4
 32
-R17
+R5
 !i10b 1
+R6
 R18
 R19
-R20
 !i113 1
-R4
-R5
+R7
+R8

@@ -1,0 +1,63 @@
+do C:/Programmering/Prosjekter/INF3430/Oblig3/04/Questa/04.do
+do C:/Programmering/Prosjekter/INF3430/Oblig3/04/Questa/04.do
+do C:/Programmering/Prosjekter/INF3430/Oblig3/04/Questa/04.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_ctrl
+# -- Compiling architecture tb_pos_ctrl_ARCH of tb_pos_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_ctrl
+# -- Compiling architecture pos_ctrl_ARCH of pos_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:52:16 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_ctrl(tb_pos_ctrl_arch)
+# Loading work.pos_ctrl(pos_ctrl_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.p_ctrl(p_ctrl_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 3684
+# 
+#           Attempting to use alternate WLF file "./wlftdg51t5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftdg51t5
+# 
+quit -sim

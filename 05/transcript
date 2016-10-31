@@ -1,0 +1,137 @@
+do C:/Programmering/Prosjekter/INF3430/Oblig3/05/05.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_seg7_ctrl
+# -- Compiling architecture tb_pos_seg7_ctrl_ARCH of tb_pos_seg7_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_ctrl
+# -- Compiling architecture pos_ctrl_ARCH of pos_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# ** Error: (vcom-11) Could not find work.motor.
+# 
+# ** Error: motor_beh.vhd(4): VHDL Compiler exiting
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\05\05.do line 5
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none motor_beh.vhd"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/05/05.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_seg7_ctrl
+# -- Compiling architecture tb_pos_seg7_ctrl_ARCH of tb_pos_seg7_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_ctrl
+# -- Compiling architecture pos_ctrl_ARCH of pos_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# ** Error: (vcom-11) Could not find work.motor.
+# 
+# ** Error: motor_beh.vhd(4): VHDL Compiler exiting
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\05\05.do line 5
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none motor_beh.vhd"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/05/05.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_seg7_ctrl
+# -- Compiling architecture tb_pos_seg7_ctrl_ARCH of tb_pos_seg7_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_ctrl
+# -- Compiling architecture pos_ctrl_ARCH of pos_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity p_ctrl
+# -- Compiling architecture p_ctrl_ARCH of p_ctrl
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: CRU.vhd(3): Library unisim not found.
+# ** Error: CRU.vhd(4): (vcom-1136) Unknown identifier "unisim".
+# 
+# ** Error: CRU.vhd(7): VHDL Compiler exiting
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\05\05.do line 7
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none CRU.vhd"

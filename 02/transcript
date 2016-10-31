@@ -1,41 +1,3 @@
-vsim -gui work.tb_pos_meas
-# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
-# //
-# //  Copyright 1991-2015 Mentor Graphics Corporation
-# //  All Rights Reserved.
-# //
-# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
-# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
-# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
-# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
-# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
-# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
-# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
-# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
-# //
-# // NOT FOR CORPORATE OR PRODUCTION USE.
-# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
-# // FOR HIGHER EDUCATION PURPOSES ONLY
-# //
-# vsim -gui 
-# Start time: 12:34:58 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# ** Warning: (vsim-3473) Component instance "UUT : pos_meas_ent" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_pos_meas File: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas_ent.vhd
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-run 10 us
-quit -sim
-# 0 compiles, 2 failed with no errors.
 # vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
@@ -44,613 +6,6 @@ quit -sim
 # -- Loading package NUMERIC_STD
 # -- Compiling entity tb_pos_meas
 # -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# 
-# 
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 12:41:14 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# ** Warning: (vsim-3473) Component instance "UUT : pos_meas_ent" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_pos_meas File: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftkxq0d3".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftkxq0d3
-# 
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(41): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(41): near "'": (vcom-1576) expecting ';'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(43): near "after": syntax error
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(45): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(41): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(41): near "'": (vcom-1576) expecting ';'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(45): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 12:44:58 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# ** Warning: (vsim-3473) Component instance "UUT : pos_meas_ent" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_pos_meas File: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft6drxns".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft6drxns
-# 
-run 10 us
-# could not find interpreter "ScintillaTk"
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 12:47:17 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftrv9t78".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftrv9t78
-# 
-run 10 us
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/pos_itr
-restart
-run 10 us
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/rst
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/a_int
-reset
-# ambiguous command name "reset": resetGlobalEvcd resetTime
-restart
-run 10 us
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-restart
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(88): (vcom-1136) Unknown identifier "CURRENT_STATE".
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(88): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(89): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(90): (vcom-1136) Unknown identifier "CURRENT_STATE".
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(90): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(91): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(111): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(88): No feasible entries for infix operator "=".
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(88): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(89): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(91): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(111): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(89): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(91): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd(111): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:10:46 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftybe8xd".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftybe8xd
-# 
-run 10us
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-restart
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(26): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(45): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:13:56 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftqka4v9".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftqka4v9
-# 
-run 10 us
-restart
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:15:19 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftw9eyx0".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftw9eyx0
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-sim -quit
-# bad option "-quit": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:16:35 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft55b115".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft55b115
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:19:24 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlfthxtt98".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlfthxtt98
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-sim -quit
-# bad option "-quit": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:21:23 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft31ic76".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft31ic76
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:23:23 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftac2n36".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftac2n36
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:25:21 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftnscj9d".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftnscj9d
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-sim -quit
-# bad option "-quit": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(61): near "mclk": (vcom-1576) expecting ';'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(63): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(66): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pos_meas
-# -- Compiling architecture pos_meas_ARCH of pos_meas
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling architecture motor_beh of motor
-# ** Error: (vcom-11) Could not find work.motor.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd(4): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity motor
-# 
-# 
-# 4 compiles, 2 failed with 5 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(61): near "mclk": (vcom-1576) expecting ';'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(63): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(66): VHDL Compiler exiting
 # 
 # 
 # vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
@@ -680,32 +35,7 @@ quit -sim
 # -- Compiling entity motor
 # 
 # 
-# 4 compiles, 1 failed with 3 errors.
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(63): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# 
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(66): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(64): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd(66): VHDL Compiler exiting
-# 
-# 
+# 4 compiles, 0 failed with no errors.
 # vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
@@ -716,172 +46,13 @@ quit -sim
 # -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
 # 
 # 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:42:58 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-# ** Warning: (vsim-3473) Component instance "motor_model : motor_ent" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_pos_meas File: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk \
-sim:/tb_pos_meas/motor_cw \
-sim:/tb_pos_meas/motor_ccw
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlftaryac3".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftaryac3
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:44:56 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-# ** Warning: (vsim-3473) Component instance "motor_model : motor_beh" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_pos_meas File: C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk \
-sim:/tb_pos_meas/motor_cw \
-sim:/tb_pos_meas/motor_ccw
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft6rwm3f".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft6rwm3f
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:46:26 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-# Loading work.motor(motor_beh)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk \
-sim:/tb_pos_meas/motor_cw \
-sim:/tb_pos_meas/motor_ccw
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft8zht2k".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft8zht2k
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_pos_meas
-# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
-# 
-# 
-vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:48:21 on Oct 27,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pos_meas(tb_pos_meas_arch)
-# Loading work.pos_meas(pos_meas_arch)
-# Loading work.motor(motor_beh)
-add wave -position insertpoint  \
-sim:/tb_pos_meas/pos \
-sim:/tb_pos_meas/rst \
-sim:/tb_pos_meas/a \
-sim:/tb_pos_meas/b \
-sim:/tb_pos_meas/sync_rst \
-sim:/tb_pos_meas/mclk \
-sim:/tb_pos_meas/motor_cw \
-sim:/tb_pos_meas/motor_ccw
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft1g0bny".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft1g0bny
-# 
-add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 10 us
-quit -sim
-# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity motor
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
 # 
 # 
 # vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
@@ -892,9 +63,38 @@ quit -sim
 # -- Compiling entity motor
 # 
 # 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# 
+# 
+# 4 compiles, 0 failed with no errors.
 vsim -gui work.tb_pos_meas
-# vsim 
-# Start time: 13:56:56 on Oct 27,2016
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 17:33:41 on Oct 31,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -915,14 +115,848 @@ sim:/tb_pos_meas/motor_ccw
 # 
 #           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
 # 
-#           Attempting to use alternate WLF file "./wlftwy2wsg".
+#           Attempting to use alternate WLF file "./wlftwwdihg".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftwy2wsg
+#           Using alternate file: ./wlftwwdihg
 # 
+run 20 us
+restart
+run 20000 us
+restart
+run 10000 us
+restart
+run 8000 us
+quit -sim
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# ** Error: No Design Loaded!
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do line 10
+# No Design Loaded!
+#     while executing
+# "run 8000 us"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 17:50:51 on Oct 31,2016
+# ** Error: (vsim-19) Failed to access library 'work.tb_pos_meas' at "work.tb_pos_meas".
+# 
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do PAUSED at line 9
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# OpenFile C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
+# ** Error: No Design Loaded!
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do line 13
+# No Design Loaded!
+#     while executing
+# "run 8000 us"
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# 
+# 
+# 4 compiles, 0 failed with no errors.
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# ** Error: (vcom-7) Failed to open design unit file "../tb_pos_meas.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do line 3
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none ../tb_pos_meas.vhd"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# ** Error: (vcom-7) Failed to open design unit file "/tb_pos_meas.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do line 3
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none /tb_pos_meas.vhd"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# OpenFile tb_pos_meas.vhd
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# OpenFile tb_pos_meas.vhd
+# ** Error: No Design Loaded!
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do line 13
+# No Design Loaded!
+#     while executing
+# "run 8000 us"
+vsim work.tb_pos_meas
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+sim -quit
+# bad option "-quit": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+quit -sim
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:01:11 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
 add wave -position insertpoint  \
-sim:/tb_pos_meas/UUT/PRESENT_STATE
-run 1000 us
+sim:/tb_pos_meas/UUT/pos_itr
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+restart
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+
+run 20000 us
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+restart
+run 8000 us
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+quit -sim
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:16:26 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+quit -sim
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:18:24 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+
 quit -sim
 # vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/tb_pos_meas.vhd
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -934,9 +968,37 @@ quit -sim
 # -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
 # 
 # 
-vsim -gui work.tb_pos_meas
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_beh.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/motor_ent.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Programmering/Prosjekter/INF3430/Oblig3/02/pos_meas.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# 
+# 
+# 4 compiles, 0 failed with no errors.
+vsim work.tb_pos_meas
 # vsim 
-# Start time: 13:58:37 on Oct 27,2016
+# Start time: 18:19:20 on Oct 31,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -953,14 +1015,360 @@ sim:/tb_pos_meas/sync_rst \
 sim:/tb_pos_meas/mclk \
 sim:/tb_pos_meas/motor_cw \
 sim:/tb_pos_meas/motor_ccw
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Eilif  Hostname: CHERNOBYL_II  ProcessID: 12440
-# 
-#           Attempting to use alternate WLF file "./wlft136b98".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft136b98
-# 
-run 2000 us
+run 8000 us
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
 quit -sim
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:22:13 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+quit -sim
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# ** Error: pos_meas.vhd(117): near "k": (vcom-1576) expecting == or '+' or '-' or '&'.
+# 
+# ** Error: pos_meas.vhd(121): VHDL Compiler exiting
+# ** Error: C:/Program Files/Questa/win32pe_edu/vcom failed.
+# Error in macro C:\Programmering\Prosjekter\INF3430\Oblig3\02\02.do line 4
+# C:/Program Files/Questa/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -stats=none pos_meas.vhd"
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:23:18 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:25:45 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4050350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4250350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4450350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4650350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4850350 ns  Iteration: 0  Instance: /tb_pos_meas/UUT
+do C:/Programmering/Prosjekter/INF3430/Oblig3/02/02.do
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_pos_meas
+# -- Compiling architecture tb_pos_meas_ARCH of tb_pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pos_meas
+# -- Compiling architecture pos_meas_ARCH of pos_meas
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture motor_beh of motor
+# -- Loading entity motor
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity motor
+# vsim 
+# Start time: 18:34:36 on Oct 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pos_meas(tb_pos_meas_arch)
+# Loading work.pos_meas(pos_meas_arch)
+# Loading work.motor(motor_beh)
+# ** Note: (vish-4074) File C:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa/vsim.wlf is still open, viewing file in live viewing mode.
+# 
+# Closing project C:/Programmering/Prosjekter/INF3430/Oblig3/02/02_Questa.mpf

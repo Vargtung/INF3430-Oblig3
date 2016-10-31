@@ -9,23 +9,23 @@ z2
 cModel Technology
 dC:/Programmering/Prosjekter/INF3430/Oblig3/03/Questa
 Emotor
-Z0 w1477578774
+Z0 w1477575174
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/Programmering/Prosjekter/INF3430/Oblig3/04/Questa
-8C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_ent.vhd
-FC:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_ent.vhd
+8motor_ent.vhd
+Fmotor_ent.vhd
 l0
 L4
 VNQo1Jg3NG1K?jBB;ZW^7V1
 !s100 2d3MkHBiBdCGhOoS:kl2i2
 Z4 OP;C;10.4a;61
 32
-Z5 !s110 1477579440
+Z5 !s110 1477936336
 !i10b 1
-Z6 !s108 1477579440.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_ent.vhd|
-!s107 C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_ent.vhd|
+Z6 !s108 1477936336.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|motor_ent.vhd|
+!s107 motor_ent.vhd|
 !i113 1
 Z7 o-work work -2002 -explicit -O0
 Z8 tExplicit 1
@@ -33,41 +33,41 @@ Amotor_beh
 DEx4 work 5 motor 0 22 NQo1Jg3NG1K?jBB;ZW^7V1
 R1
 R2
-8C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_beh.vhd
-FC:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_beh.vhd
+8motor_beh.vhd
+Fmotor_beh.vhd
 l6
 L4
 VT78MTEbKER?:0_35ldHUS2
 !s100 Jh?aIPK038H0BGR>K0gR<3
 R4
 32
-!s110 1477579474
+R5
 !i10b 1
-!s108 1477579474.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_beh.vhd|
-!s107 C:/Programmering/Prosjekter/INF3430/Oblig3/04/motor_beh.vhd|
+R6
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|motor_beh.vhd|
+!s107 motor_beh.vhd|
 !i113 1
 R7
 R8
 Ep_ctrl
-Z9 w1477573370
+Z9 w1477569770
 Z10 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z11 8C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd
-Z12 FC:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd
+Z11 8p_ctrl.vhd
+Z12 Fp_ctrl.vhd
 l0
 L6
 V]2Cz`VUFVAM?V=eQ^0e3h3
 !s100 GPF_;MP=>=TLY:GFFoG_d1
 R4
 32
-R5
+Z13 !s110 1477936335
 !i10b 1
-R6
-Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd|
-Z14 !s107 C:/Programmering/Prosjekter/INF3430/Oblig3/04/p_ctrl.vhd|
+Z14 !s108 1477936335.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|p_ctrl.vhd|
+Z16 !s107 p_ctrl.vhd|
 !i113 1
 R7
 R8
@@ -82,33 +82,33 @@ VgXUG_;K^M87:]ST]6C;Tk0
 !s100 ?;0DZ8VC?5jSQUhU<SPmk2
 R4
 32
-R5
-!i10b 1
-R6
 R13
+!i10b 1
 R14
+R15
+R16
 !i113 1
 R7
 R8
 Epos_ctrl
-Z15 w1477578513
+Z17 w1477647564
 R10
 R1
 R2
 R3
-Z16 8C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_ctrl.vhd
-Z17 FC:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_ctrl.vhd
+Z18 8pos_ctrl.vhd
+Z19 Fpos_ctrl.vhd
 l0
 L6
 VS4MXSBDjbd[_<fRWbZJBE3
 !s100 [[RbVA]FfPO1@<cOjUCEL1
 R4
 32
-R5
+R13
 !i10b 1
-R6
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_ctrl.vhd|
-Z19 !s107 C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_ctrl.vhd|
+R14
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|pos_ctrl.vhd|
+Z21 !s107 pos_ctrl.vhd|
 !i113 1
 R7
 R8
@@ -119,26 +119,26 @@ R2
 DEx4 work 8 pos_ctrl 0 22 S4MXSBDjbd[_<fRWbZJBE3
 l57
 L26
-VMIl9U54?JOK^OOIS9afQo0
-!s100 eh?OX[I?Fa`9T7fz>`CBA3
+VdBH60IlZDeKCdZdgKI@kh1
+!s100 Y]9W]HLaALLWm`]m:Ja]]3
 R4
 32
-R5
+R13
 !i10b 1
-R6
-R18
-R19
+R14
+R20
+R21
 !i113 1
 R7
 R8
 Epos_meas
-Z20 w1477576782
+Z22 w1477573182
 R10
 R1
 R2
 R3
-Z21 8C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_meas.vhd
-Z22 FC:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_meas.vhd
+Z23 8pos_meas.vhd
+Z24 Fpos_meas.vhd
 l0
 L5
 V]HgSMHjQkj7a_9T?:nDA@1
@@ -148,8 +148,8 @@ R4
 R5
 !i10b 1
 R6
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_meas.vhd|
-Z24 !s107 C:/Programmering/Prosjekter/INF3430/Oblig3/04/pos_meas.vhd|
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|pos_meas.vhd|
+Z26 !s107 pos_meas.vhd|
 !i113 1
 R7
 R8
@@ -167,30 +167,30 @@ R4
 R5
 !i10b 1
 R6
-R23
-R24
+R25
+R26
 !i113 1
 R7
 R8
 Etb_pos_ctrl
-Z25 w1477580066
+Z27 w1477647227
 R10
 R1
 R2
 R3
-Z26 8C:/Programmering/Prosjekter/INF3430/Oblig3/04/tb_pos_ctrl.vhd
-Z27 FC:/Programmering/Prosjekter/INF3430/Oblig3/04/tb_pos_ctrl.vhd
+Z28 8tb_pos_ctrl.vhd
+Z29 Ftb_pos_ctrl.vhd
 l0
 L6
 VKBj3@1VdZ_IFDb2ZNmHPm1
 !s100 lnmbG5Q2CKlLb?OHPlHCA1
 R4
 32
-Z28 !s110 1477580074
+R13
 !i10b 1
-Z29 !s108 1477580074.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Programmering/Prosjekter/INF3430/Oblig3/04/tb_pos_ctrl.vhd|
-Z31 !s107 C:/Programmering/Prosjekter/INF3430/Oblig3/04/tb_pos_ctrl.vhd|
+R14
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|tb_pos_ctrl.vhd|
+Z31 !s107 tb_pos_ctrl.vhd|
 !i113 1
 R7
 R8
@@ -198,16 +198,16 @@ Atb_pos_ctrl_arch
 R10
 R1
 R2
-Z32 DEx4 work 11 tb_pos_ctrl 0 22 KBj3@1VdZ_IFDb2ZNmHPm1
+DEx4 work 11 tb_pos_ctrl 0 22 KBj3@1VdZ_IFDb2ZNmHPm1
 l56
 L10
-V@j768VVkFMM]^nPCVmWfP2
-!s100 X3kD7X;`UHd@SG^NGkJ^<3
+V2hJCgaja^^U;Gl2;WMXOY2
+!s100 ?XB9MVWU22?[I2zSY`0HA0
 R4
 32
-R28
+R13
 !i10b 1
-R29
+R14
 R30
 R31
 !i113 1
